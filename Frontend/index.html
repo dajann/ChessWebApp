@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PuzzleGame</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section>
+      <h1 class="game--title">Chess</h1>
+      <div class full-container>
+        <div class="game--container">
+          <div data-cell-index="0" class="cell whiteCell"></div>
+          <div data-cell-index="1" class="cell blackCell"></div>
+          <div data-cell-index="2" class="cell whiteCell"></div>
+          <div data-cell-index="3" class="cell blackCell"></div>
+          <div data-cell-index="4" class="cell whiteCell"></div>
+          <div data-cell-index="5" class="cell blackCell"></div>
+          <div data-cell-index="6" class="cell whiteCell"></div>
+          <div data-cell-index="7" class="cell blackCell"></div>
+          <div data-cell-index="8" class="cell blackCell"></div>
+          <div data-cell-index="9" class="cell whiteCell"></div>
+          <div data-cell-index="10" class="cell blackCell"></div>
+          <div data-cell-index="11" class="cell whiteCell"></div>
+          <div data-cell-index="12" class="cell blackCell"></div>
+          <div data-cell-index="13" class="cell whiteCell"></div>
+          <div data-cell-index="14" class="cell blackCell"></div>
+          <div data-cell-index="15" class="cell whiteCell"></div>
+          <div data-cell-index="16" class="cell whiteCell"></div>
+          <div data-cell-index="17" class="cell blackCell"></div>
+          <div data-cell-index="18" class="cell whiteCell"></div>
+          <div data-cell-index="19" class="cell blackCell"></div>
+          <div data-cell-index="20" class="cell whiteCell"></div>
+          <div data-cell-index="21" class="cell blackCell"></div>
+          <div data-cell-index="22" class="cell whiteCell"></div>
+          <div data-cell-index="23" class="cell blackCell"></div>
+          <div data-cell-index="24" class="cell blackCell"></div>
+          <div data-cell-index="25" class="cell whiteCell"></div>
+          <div data-cell-index="26" class="cell blackCell"></div>
+          <div data-cell-index="27" class="cell whiteCell"></div>
+          <div data-cell-index="28" class="cell blackCell"></div>
+          <div data-cell-index="29" class="cell whiteCell"></div>
+          <div data-cell-index="30" class="cell blackCell"></div>
+          <div data-cell-index="31" class="cell whiteCell"></div>
+          <div data-cell-index="32" class="cell whiteCell"></div>
+          <div data-cell-index="33" class="cell blackCell"></div>
+          <div data-cell-index="34" class="cell whiteCell"></div>
+          <div data-cell-index="35" class="cell blackCell"></div>
+          <div data-cell-index="36" class="cell whiteCell"></div>
+          <div data-cell-index="37" class="cell blackCell"></div>
+          <div data-cell-index="38" class="cell whiteCell"></div>
+          <div data-cell-index="39" class="cell blackCell"></div>
+          <div data-cell-index="40" class="cell blackCell"></div>
+          <div data-cell-index="41" class="cell whiteCell"></div>
+          <div data-cell-index="42" class="cell blackCell"></div>
+          <div data-cell-index="43" class="cell whiteCell"></div>
+          <div data-cell-index="44" class="cell blackCell"></div>
+          <div data-cell-index="45" class="cell whiteCell"></div>
+          <div data-cell-index="46" class="cell blackCell"></div>
+          <div data-cell-index="47" class="cell whiteCell"></div>
+          <div data-cell-index="48" class="cell whiteCell"></div>
+          <div data-cell-index="49" class="cell blackCell"></div>
+          <div data-cell-index="50" class="cell whiteCell"></div>
+          <div data-cell-index="51" class="cell blackCell"></div>
+          <div data-cell-index="52" class="cell whiteCell"></div>
+          <div data-cell-index="53" class="cell blackCell"></div>
+          <div data-cell-index="54" class="cell whiteCell"></div>
+          <div data-cell-index="55" class="cell blackCell"></div>
+          <div data-cell-index="56" class="cell blackCell"></div>
+          <div data-cell-index="57" class="cell whiteCell"></div>
+          <div data-cell-index="58" class="cell blackCell"></div>
+          <div data-cell-index="59" class="cell whiteCell"></div>
+          <div data-cell-index="60" class="cell blackCell"></div>
+          <div data-cell-index="61" class="cell whiteCell"></div>
+          <div data-cell-index="62" class="cell blackCell"></div>
+          <div data-cell-index="63" class="cell whiteCell"></div>
+        </div>
+      </div>
+      <button class="game--restart">Restart Game</button>
+    </section>
+    <button class="open-button" onclick="openForm()">Chat</button>
+
+    <div class="chat-popup" id="myForm">
+      <form action="/action_page.php" class="form-container">
+        <h1>Chat</h1>
+
+        <label for="msg"><b>Message</b></label>
+        <textarea
+          placeholder="Recived message"
+          id="recived-msg"
+          required
+        ></textarea>
+        <textarea placeholder="Type message.." id="msg" required></textarea>
+
+        <button type="button" class="btn" onclick="selectText()">Send</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">
+          Close
+        </button>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
