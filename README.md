@@ -1,6 +1,7 @@
 # ChessWebApp
-![photo](https://user-images.githubusercontent.com/73652876/228628091-9cd2c3b9-3e65-402a-86f1-7715130e0319.png)
-![photo2](https://user-images.githubusercontent.com/73652876/228628117-9a9395d2-fa1c-4436-87bd-c8cc5d623066.png)
+![img](https://user-images.githubusercontent.com/73652876/228631010-9a8e702f-1152-464b-bb43-fc9e150c13fd.png)
+![img1](https://user-images.githubusercontent.com/73652876/228631014-3eb594dc-ad0e-4118-a105-c22b16f4f836.png)
+
 
 This is a simple implementation of a chess game using Java Spring Boot and WebSockets for real-time communication between players. The frontend is built with HTML, CSS, and JavaScript.
 
